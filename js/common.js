@@ -6,5 +6,5 @@ $(document).ready(function() {
 
 	$(window).load(function() { 
 		$(".loader_inner").fadeOut(); 
-		$(".loader").delay(5).fadeOut("slow"); 
+		$(".loader").delay(400).fadeOut("slow"); 
 	});
