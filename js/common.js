@@ -8,6 +8,10 @@ $(document).ready(function() {
 	$(window).resize(function(){
 		heightDetect();
 	});
+
+	$(".toggle_mnu, .menu_item").click(function() {
+  	$(".sandwich").toggleClass("active");
+	});
 	
 
 });
