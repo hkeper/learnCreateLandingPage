@@ -13,6 +13,13 @@ $(document).ready(function() {
   	$(".sandwich").toggleClass("active");
 	});
 	
+	$(".toggle_mnu").click(function(){		
+		if($(".top_mnu").is(":visible")){
+			$(".top_mnu").fadeOut(600);
+		}	else{
+			$(".top_mnu").fadeIn(600);
+		};
+	});
 
 });
 
