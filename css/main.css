@@ -76,7 +76,8 @@ svg {
   bottom: 0;
   left: 0;
   right: 0;
-  margin: auto; }
+  margin: auto;
+  z-index: 200; }
 
 .sw-topper {
   position: relative;
@@ -120,5 +121,12 @@ svg {
   opacity: 0;
   top: 0;
   transform: rotate(180deg); }
+
+.top_mnu {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 150; }
 
 /*# sourceMappingURL=main.css.map */
