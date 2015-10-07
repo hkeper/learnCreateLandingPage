@@ -16,7 +16,7 @@ $(document).ready(function() {
 	$(".top_mnu ul a").click(function(){
 		$(".top_mnu").fadeOut(600);
 		$(".sandwich").toggleClass("active");
-	});
+	}).append("<span>");
 	
 	$(".toggle_mnu").click(function(){		
 		if($(".top_mnu").is(":visible")){
@@ -27,8 +27,6 @@ $(document).ready(function() {
 			$(".top_mnu li a").addClass("fadeInUp animated");
 		};
 	});
-
-	$(".top_mnu").sliphover();
 
 });
 
